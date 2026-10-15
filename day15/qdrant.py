@@ -155,7 +155,7 @@ def search_with_filter(query, query_filter=None, top_k=3):
 
     return results
 
-reimbursement_filter = Filter(
+reimbursement_   = Filter(
     must=[
         FieldCondition(
             key="category",
