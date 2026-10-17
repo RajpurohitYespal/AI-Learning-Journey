@@ -1,0 +1,25 @@
+[project]
+name = "day17"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yashpal Rajpurohit", email = "rajpurohityespal9@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.143.3",
+    "groq>=1.7.0",
+    "numpy>=2.4.6",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+day17 = "day17:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
